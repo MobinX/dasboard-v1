@@ -1,0 +1,144 @@
+{
+  "dashboardTitle": "Main Dashboard",
+  "cards": [
+    {
+      "title": "Earnings",
+      "value": "$340.5"
+    },
+    {
+      "title": "Spend this month",
+      "value": "$642.39"
+    },
+    {
+      "title": "Sales",
+      "value": "$574.34"
+    },
+    {
+      "title": "Your Balance",
+      "value": "$1,000"
+    },
+     {
+      "title": "New Tasks",
+      "value": "145"
+    },
+    {
+      "title": "Total Projects",
+      "value": "$2433"
+    }
+  ],
+  "monthlyOverview": {
+    "title": "This month",
+    "value": "$37.5K",
+    "totalSpent": "+2.45%",
+    "series": [
+      {
+        "name": "Total Spent",
+        "data": [20, 30, 40, 50, 60, 70]
+      },
+      {
+        "name": "Total Earned",
+        "data": [30, 40, 50, 60, 70, 80]
+      }
+    ],
+    "labels": ["SEP", "OCT", "NOV", "DEC", "JAN", "FEB"]
+  },
+  "checkTable": {
+    "title": "Check Table",
+    "headers": ["NAME", "PROGRESS", "QUANTITY", "DATE"],
+    "rows": [
+      {
+        "name": "Marketplace",
+        "progress": "75.5%",
+        "quantity": "2458",
+        "date": "Apr 25, 2022"
+      },
+      {
+        "name": "Venus DB PRO",
+        "progress": "35.4%",
+        "quantity": "1485",
+        "date": "Jul 20, 2022"
+      },
+      {
+        "name": "Venus DS",
+        "progress": "25%",
+        "quantity": "1024",
+        "date": "Sep 30, 2022"
+      },
+      {
+        "name": "Venus 3D Asset",
+        "progress": "100%",
+        "quantity": "858",
+        "date": "Oct 24, 2022"
+      },
+       {
+        "name": "Marketplace",
+        "progress": "75.5%",
+        "quantity": "258",
+        "date": "Nov 29, 2022"
+      }
+    ]
+  },
+  "weeklyRevenue": {
+    "title": "Weekly Revenue",
+    "series": [{
+        "name": "Revenue",
+        "data": [100, 120, 80, 130, 90, 110, 100, 120, 140]
+      }],
+     "labels": ["17", "18", "19", "20", "21", "22", "23", "24", "25"]
+  },
+   "dailyTraffic": {
+    "title": "Daily Traffic",
+    "value": "2.579",
+    "unit": "visitors",
+    "percentageChange": "+2.45%",
+    "series": [{
+        "name": "Visitors",
+        "data": [50, 70, 120, 90, 150, 130, 100]
+      }],
+     "labels": ["00", "04", "08", "12", "14", "16", "18"]
+  },
+  "pieChart": {
+    "title": "Your Pie Chart",
+    "labels": ["Your Files", "System"],
+    "series": [63, 25]
+  },
+  "tasks": {
+    "title": "Tasks",
+    "items": ["Landing Page Design"]
+  },
+  "calendar": {
+    "title": "December 2024"
+  },
+  "sidebar": [
+    {
+      "title": "Main Dashboard",
+      "link": "/dashboard",
+      "icon": "home"
+    },
+    {
+      "title": "NFT Marketplace",
+      "link": "/nft",
+      "icon": "shopping-cart"
+    },
+    {
+      "title": "Data Tables",
+      "link": "/tables",
+      "icon": "table"
+    },
+    {
+      "title": "Profile",
+      "link": "/profile",
+      "icon": "user"
+    },
+     {
+      "title": "Sign In",
+      "link": "/signin",
+      "icon": "log-in"
+    },
+     {
+      "title": "RTL Admin",
+      "link": "/rtl",
+      "icon": "layout"
+    }
+  ]
+}
